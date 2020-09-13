@@ -18,6 +18,9 @@ import math
 # G_no_potential: Free energy change from closed to open state at zero membrane potential. Integer.
 # x_interval: interval that separates the environment values to be evaluated, not necessary if x=True
 # verbose: if True, print the value of gating current corresponding to the output
+# mean: mean [K+]. Integer.
+# mean2: second value for mean, only for bimodal distribution.
+# exp: name of distribution for the environment p(x). String.
 
 # **other_px: other parameters for different px distributions
 # sigma: standard deviation used in normal and bimodal distributions
